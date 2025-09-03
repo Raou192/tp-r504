@@ -10,5 +10,5 @@ jobs:
       - name: Run tests
         run: pytest TP1/test.py
       - name: intall pytest
-        run: pip install pytest -y
+        run: pip3 install pytest -y
 
