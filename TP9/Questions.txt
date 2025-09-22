@@ -1,0 +1,14 @@
+#2.1
+Le client envoie son packet mais comme c'est du UDP rien ne s'affiche.
+
+#2.2
+Le numéro de port est le 1234 utilisé dans les scripts on utilise celui si car il est hors de la plage 0-1023
+
+#4.1
+Oui le fonctionnement est correct
+
+#4.2
+Oui le contenu est conforme à ce qui est attendu
+
+#4.3 
+Il y'a aussi les en têtes http
