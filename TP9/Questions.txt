@@ -8,7 +8,15 @@ Le numéro de port est le 1234 utilisé dans les scripts on utilise celui si car
 Oui le fonctionnement est correct
 
 #4.2
-Oui le contenu est conforme à ce qui est attendu
-
+Les info ne sont pas exactement les même que mentioner dans le cours.
 #4.3 
-Il y'a aussi les en têtes http
+Il y'a aussi les header HTTP.
+
+#4.4
+Cela ne fonctionne pas correctement car le type d'HTTP n'est pas compatible de plus l'url www.javaworld.com nous redirige vers l'url www.infoworld.com
+
+#4.5
+Car la version HTTP est différente dans notre script java on précise bien que l'on veut HTTP 1.1 sauf que certain site ne possède pas forcément cette version avec des url comme www.youtube.com nous avons bien ce qui attendu en cours
+
+#4.6
+On a en plus des champs qui n'était pas dispo nous avons le Host, les type MIME accepté, les langue accepté, l'encoding accepter et le user agent

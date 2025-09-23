@@ -1,5 +1,5 @@
 HTTP/1.1 302 Found
-Date: Mon, 22 Sep 2025 23:21:13 GMT
+Date: Tue, 23 Sep 2025 07:04:36 GMT
 Server: Apache
 Location: https://www.univ-rouen.fr/
 Content-Length: 210
