@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+import signal as sig
+from time import sleep
+import sys
+import os
+
+def signal_stop(s, frame):
+	print("réception du signal ctrl + c", sig.Signals(s).name)
+	sys.exit()
+sig.signal(sig.SIGINT, signal_stop)
+
+def signal_handler(s, frame):
+	print("réception du signal ctrl + \", sig.Signals(s).name)
+sig.signal(sig.SIGQUIT, signal_handler)
+
+x = 1
+while True:
+	print("pid=", os.getpid(), x)
+	sleep(0.5)
+	x += 1
+
