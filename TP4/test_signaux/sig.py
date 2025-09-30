@@ -10,7 +10,7 @@ def signal_stop(s, frame):
 sig.signal(sig.SIGINT, signal_stop)
 
 def signal_handler(s, frame):
-	print("réception du signal ctrl + \", sig.Signals(s).name)
+	print("réception du signal", sig.Signals(s).name)
 sig.signal(sig.SIGQUIT, signal_handler)
 
 x = 1
