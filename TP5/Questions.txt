@@ -1,0 +1,48 @@
+#Q1.1
+Il y'a 10 contributeur d'après GitHub.
+
+#Q1.2
+Le projet occupe 424 ko.
+
+#Q1.3 elle sert à voir qui à modifier la derniere ligne d'un fichier.
+
+#Q1.4
+Jake Ginnivan à commit la ligne 329
+
+#Q1.5
+3e5d1596
+
+#Q1.6
+Adding tag command reference
+
+#Q1.7
+Date:   Tue Jun 17 21:47:47 2014
+
+#Q1.8
+294c63b9653d93caefdd233da52fc0cd6ca95268
+
+#Q1.9
+Author: Wei Wang <wei@fastmail.com>
+
+#Q1.10
+fi25-pinel@IUTR-25-6938:~/tp-r504/TP5/explain-git-with-d3$ git log --oneline | grep commit
+e5990f6 Use named transitions for commit circles
+75a9981 support commit message with spaces
+a80597b Adding -m option to git commit
+ea8f028 Prevent making commits to remote tracking branches.
+43c6749 Change all commit SHA's and the id generator to not use any letter above f.
+298405d Branchless marking can now also support merge commits.
+10f1515 Add the ability to fade out branchless commits.
+b4ca8f2 Initial commit
+
+#Q1.11
+On a les dates
+
+#Q1.12
+git log --format="%an"
+
+#Q1.13
+Il y'a 11 contibuteurs
+
+#2.1
+Git status
