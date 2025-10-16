@@ -1,0 +1,11 @@
+#1.2
+xdg-open output.svg
+Le but des images SVG est de ne pas avoir d'atenuation comme les images jpeg et png
+
+#1.3 le fichier est un language de balisage qui est XML
+
+#1.5
+svg = 2857		png = 12496
+
+#1.7
+Nous avons des flèches
