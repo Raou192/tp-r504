@@ -1,0 +1,60 @@
+#Q1.3
+
+version 8.2.2
+
+#Q1.7
+
+Pour voir tous les groupes on peut utiliser la commande "getent group" ou "cat /etc/group"
+
+#Q1.8
+
+sudo usermod -aG libvirt fi25-pinel
+
+#Q1.9
+
+Vagrant 2.4.9
+
+#Q2.1
+
+J'ai choisi generic/debian11
+
+#Q2.2
+Je dois prendre des Boxes récentes avec un gros taux de téléchargements et regarder le username
+
+#Q2.3
+
+/var/lib/libvirt/images
+
+#Q2.4
+
+sudo du -h /var/lib/libvirt/
+
+#Q2.5
+
+1.3G
+
+#Q2.6 mon nom utilisateur est vagrant ==> whoami
+
+#Q2.7 
+
+/home/vagrant ==> pwd
+
+#Q2.9
+
+Ma machine est toujours en running Vagrant status
+
+#Q2.10 
+
+il y'a bien un dossier caché sa taille est environ 68 K et après la suspression de la VM seulement 24 K
+
+#Q3.3
+
+sans indiquer de destination il est ici ==> /home/vagrant/index.html
+
+#Q3.6 
+
+find /etc -name nginx.conf
+
+
+
+
