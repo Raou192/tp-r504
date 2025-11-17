@@ -1,0 +1,18 @@
+#Q2.5 + Q2.6
+La répartition est 50 50
+
+
+for i in {1..500}; do
+	curl http://localhost:83 >> resultat.txt
+done
+
+# option -c: count
+echo "Hello1 : $(grep --count 'Hello 1' resultat.txt)"
+echo "Hello2 : $(grep -c 'Hello 2' resultat.txt)"
+
+
+#Q2.7
+Cela fonctionne ==> 	Hello1 : 399 Hello2 : 101
+
+#3.8 le docker compose fonctionne bien
+
