@@ -16,3 +16,7 @@ Cela fonctionne ==> 	Hello1 : 399 Hello2 : 101
 
 #3.8 le docker compose fonctionne bien
 
+#boucle for
+for i in {1..500}; do
+	curl http://localhost:8080 \
+done
